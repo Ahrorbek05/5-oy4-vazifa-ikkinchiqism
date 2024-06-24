@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:system-ui;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: rgb(46, 46, 46);
+    margin-bottom: 100px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding: 30px;
+}
+
+.header__button{
+    display: flex;
+    gap: 35px;
+}
+
+.header__button button{
+    width: 80px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border:  1px solid #ababab;
+    border-radius: 8px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.header__button button:hover{
+    background:white;
+    color: rgb(255, 172, 113);
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(255, 153, 1);
+}
+
+.section__container{
+    text-align: center;
+    width: 450px;
+    margin-bottom: 80px;
+}
+
+.section__container h1{
+    margin-bottom: 18px;
+}
+
+.section__button__container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.section__button button{
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color:rgb(255, 174, 0) ;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.section__button button:hover{
+    background:rgb(112, 80, 10) ;
+
+}
+
+.section__button button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.cards__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.cards__container .thumnail{
+    /* width: 200px; */
+    border: 1px solid #ababab;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 15px;
+}
+
+.cards__container p{
+    width: 350px;
+    font-size: 12px;
+    text-align: center;
+}
